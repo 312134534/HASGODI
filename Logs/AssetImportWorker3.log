@@ -1,0 +1,1586 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.21f1 (4907324dc95b) revision 4785970'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'zh' Physical Memory: 16103 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/ww281/OneDrive/Desktop/HASGODI
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50865
+Successfully changed project path to: C:/Users/ww281/OneDrive/Desktop/HASGODI
+C:/Users/ww281/OneDrive/Desktop/HASGODI
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2208] Host "[IP] 192.168.13.30 [Port] 0 [Flags] 2 [Guid] 3802284961 [EditorId] 3802284961 [Version] 1048832 [Id] WindowsEditor(7,a1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2208] Host "[IP] 192.168.13.30 [Port] 0 [Flags] 2 [Guid] 3802284961 [EditorId] 3802284961 [Version] 1048832 [Id] WindowsEditor(7,a1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 15.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.21f1 (4907324dc95b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ww281/OneDrive/Desktop/HASGODI/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7971 MB
+    Driver:   31.0.15.3210
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013961 seconds.
+- Loaded All Assemblies, in  0.767 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.823 seconds
+Domain Reload Profiling:
+	ReloadAssembly (470ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+				TypeCache.Initialize (277ms)
+					TypeCache.ScanAssembly (275ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (633ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (29ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (430ms)
+				ProcessInitializeOnLoadMethodAttributes (141ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ww281\OneDrive\Desktop\HASGODI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ww281\OneDrive\Desktop\HASGODI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.301 seconds
+Refreshing native plugins compatible for Editor in 13.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.281 seconds
+Domain Reload Profiling:
+	ReloadAssembly (564ms)
+		BeginReloadAssembly (338ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		LoadAllAssembliesAndSetupDomain (1728ms)
+			LoadAssemblies (1022ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (873ms)
+				TypeCache.Initialize (791ms)
+					TypeCache.ScanAssembly (782ms)
+				ResolveRequiredComponents (14ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1792ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (20ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (375ms)
+				ProcessInitializeOnLoadAttributes (1225ms)
+				ProcessInitializeOnLoadMethodAttributes (137ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 9.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4607 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 127 unused Assets / (136.4 KB). Loaded Objects now: 5070.
+Memory consumption went from 147.2 MB to 147.1 MB.
+Total: 6.885700 ms (FindLiveObjects: 0.884500 ms CreateObjectMapping: 0.335300 ms MarkObjects: 5.383500 ms  DeleteObjects: 0.280800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7107.802638 seconds.
+  path: Assets/animation/suifu/suifu idle.anim
+  artifactKey: Guid(62a857e2e0f940b4f84b3095c4e40672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/animation/suifu/suifu idle.anim using Guid(62a857e2e0f940b4f84b3095c4e40672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7278fe725e8acb5263f58d14a75ab027') in 0.169211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graph/hans/hans projectile 6.png
+  artifactKey: Guid(c6de801d41a89034ab53962cf2b60209) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graph/hans/hans projectile 6.png using Guid(c6de801d41a89034ab53962cf2b60209) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd907a427b75f6c4d81b73e9556991b34') in 0.122610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Graph/hans/hans hurt.png
+  artifactKey: Guid(3e912c19fa35104469103981894166da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graph/hans/hans hurt.png using Guid(3e912c19fa35104469103981894166da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75b412f17f4e03999d8e05458bc3b9c0') in 0.061962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Graph/hans/hans attack 1-6.png
+  artifactKey: Guid(8221f1ffdb1b9b540b04fd69bb71fefa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graph/hans/hans attack 1-6.png using Guid(8221f1ffdb1b9b540b04fd69bb71fefa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13e3ce643e144d0b60c76b8da4aaa190') in 0.065416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/animation/suifu/hans hurt.anim
+  artifactKey: Guid(f47448f687ad2a847985ce3eef899612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/animation/suifu/hans hurt.anim using Guid(f47448f687ad2a847985ce3eef899612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e317e5ce80ade408faed121a767b865a') in 0.033101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Graph/suifu/attack2_3.png
+  artifactKey: Guid(7e719657b96a8054689155f61a699777) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graph/suifu/attack2_3.png using Guid(7e719657b96a8054689155f61a699777) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d39cd367e106b73b827620d81002c37') in 0.060441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Graph/suifu/idle.png
+  artifactKey: Guid(6cfa42e387b0346419e5472719957c32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graph/suifu/idle.png using Guid(6cfa42e387b0346419e5472719957c32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3f5f95bfe1deb68797b3ad3561012a3') in 0.055911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/animation/suifu/suifu hurt.anim
+  artifactKey: Guid(ed1144ea089d5454ea92c5cb52a880a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/animation/suifu/suifu hurt.anim using Guid(ed1144ea089d5454ea92c5cb52a880a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd641634cb22149e597c450c195af69ad') in 0.029741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Choose Character.unity
+  artifactKey: Guid(ca8350d3636ea974d92d0794bcda46ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Choose Character.unity using Guid(ca8350d3636ea974d92d0794bcda46ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '388b772a04ee9cb8cff75d53a5a95f59') in 0.019275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/animation/hans/hans ranged attack.anim
+  artifactKey: Guid(ad2e831e46fa42f4595784569375d9a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/animation/hans/hans ranged attack.anim using Guid(ad2e831e46fa42f4595784569375d9a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '054958f98145f984645ff1c8fb987319') in 0.029242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefab/suifu fireball.prefab
+  artifactKey: Guid(d758ed8911e291046aebd18a9493cba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/suifu fireball.prefab using Guid(d758ed8911e291046aebd18a9493cba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b72c05897976f5f45bfa8b5d3cab5c1') in 0.096321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Graph/map/Tiles.png
+  artifactKey: Guid(4452b52e7693c1a499aec98ef04f3334) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graph/map/Tiles.png using Guid(4452b52e7693c1a499aec98ef04f3334) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd42a83b3c305c1bc94c9189cbd7bc814') in 6.228203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 466
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_233.asset
+  artifactKey: Guid(40cc4e5b93b18d1429abedacd00b1ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_233.asset using Guid(40cc4e5b93b18d1429abedacd00b1ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e8e4f781d34071b322ff7ddd56dbc69') in 0.063515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_224.asset
+  artifactKey: Guid(0509655d6961fdd46b59f74d1f7cae66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_224.asset using Guid(0509655d6961fdd46b59f74d1f7cae66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a21e5594d780e685b13491c62311c0b6') in 0.092220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_209 1.asset
+  artifactKey: Guid(6370d694d4a392f498379d638f88cba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_209 1.asset using Guid(6370d694d4a392f498379d638f88cba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b60ada15c419c47e08c34b65321bc912') in 0.077013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_191 1.asset
+  artifactKey: Guid(68b96ed9cadad27499147c7357caa2c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_191 1.asset using Guid(68b96ed9cadad27499147c7357caa2c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d83f34136dde6716624293d67919f8d') in 0.052680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000854 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_208 1.asset
+  artifactKey: Guid(95939e9e25ade174abdb8f78f51c5a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_208 1.asset using Guid(95939e9e25ade174abdb8f78f51c5a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f89dde237cf3a2751ce3a3b7d440fe6') in 0.082042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002841 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_226 1.asset
+  artifactKey: Guid(857025bd78396f64b89ea99edb0daf2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_226 1.asset using Guid(857025bd78396f64b89ea99edb0daf2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '077895a5f46abbce781fbe8caf208243') in 0.065341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004172 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_196.asset
+  artifactKey: Guid(3412c8592edbae245b2432e234d1bb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_196.asset using Guid(3412c8592edbae245b2432e234d1bb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb9f6271c6c6bce81f128bfe619c0577') in 0.092043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_19.asset
+  artifactKey: Guid(06651854b67019b47952daa72d10bcfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_19.asset using Guid(06651854b67019b47952daa72d10bcfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd05b25ee91c7fc5e5614d5c37c901074') in 0.040476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_173 1.asset
+  artifactKey: Guid(8d2f67b7a9fad74468f640e9b325968c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_173 1.asset using Guid(8d2f67b7a9fad74468f640e9b325968c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fda48dfd30d3e461c5cc082843f07c38') in 0.043330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_227.asset
+  artifactKey: Guid(f3c34db4a2ca0b6449d2a12f35611783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_227.asset using Guid(f3c34db4a2ca0b6449d2a12f35611783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aea627e75dff61beec4264f292bc1f92') in 0.042357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_179.asset
+  artifactKey: Guid(f08a3ee4919701a4b93cf6ea1968ebc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_179.asset using Guid(f08a3ee4919701a4b93cf6ea1968ebc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef34460fa10d6465840bf8dadc13d8c1') in 0.038755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_185 1.asset
+  artifactKey: Guid(34066c14aa8d6694a86fdae1033918ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_185 1.asset using Guid(34066c14aa8d6694a86fdae1033918ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f273597536879f8a2f28e053ed393c1a') in 0.043711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_209.asset
+  artifactKey: Guid(64f4ad5a15ea26d4a808b97bcfaccb2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_209.asset using Guid(64f4ad5a15ea26d4a808b97bcfaccb2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60df83db802b7701de48813911ea9835') in 0.048127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_222.asset
+  artifactKey: Guid(309a2b95f235d3b4fa57555741723de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_222.asset using Guid(309a2b95f235d3b4fa57555741723de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcf1a1465e337aee9ac06a14a630c745') in 0.067164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_189.asset
+  artifactKey: Guid(67abbc05a860a9f4f93f650d5dc3ca63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_189.asset using Guid(67abbc05a860a9f4f93f650d5dc3ca63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e63242127952ca38892f16bc52af6c99') in 0.055845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_195 1.asset
+  artifactKey: Guid(de889178cd21f0c46b65e888be7d8f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_195 1.asset using Guid(de889178cd21f0c46b65e888be7d8f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbc94dffed20d2992deb13f0779b5210') in 0.058725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_237 1.asset
+  artifactKey: Guid(4e9d05bd6ec96694899a5f525079c585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_237 1.asset using Guid(4e9d05bd6ec96694899a5f525079c585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '262fbf0051684d13777f7cbee185b9a7') in 0.037584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_251 1.asset
+  artifactKey: Guid(2217ab8b205683a41bad656d1255c842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_251 1.asset using Guid(2217ab8b205683a41bad656d1255c842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b36d2cb90ec2cb78cde44b3e15e54298') in 0.034352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001648 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_241 1.asset
+  artifactKey: Guid(3523d0790f85ced42a3ce861b45b8042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_241 1.asset using Guid(3523d0790f85ced42a3ce861b45b8042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d86cc485e83b4f1bf458ba708ab51c6') in 0.034483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_258 1.asset
+  artifactKey: Guid(5198b911f99bc684db9e23fdcd3c859a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_258 1.asset using Guid(5198b911f99bc684db9e23fdcd3c859a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95f6454a7dfe6141b8aadfca6c486586') in 0.032673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_251.asset
+  artifactKey: Guid(35903bbc6124e36428328df69864d02f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_251.asset using Guid(35903bbc6124e36428328df69864d02f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa8e844ee5fb74db30e097247df9eb62') in 0.034393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_257.asset
+  artifactKey: Guid(796df2be91b71fb4d93bb5ba88797cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_257.asset using Guid(796df2be91b71fb4d93bb5ba88797cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4271b1ef349fae39c23eb9c7d55c4c91') in 0.034138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_272 1.asset
+  artifactKey: Guid(f7d3113121ad9ad4bbcea47d0c6c192b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_272 1.asset using Guid(f7d3113121ad9ad4bbcea47d0c6c192b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44cfe2053e040d32fcaf191db0af19b0') in 0.036523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_273 1.asset
+  artifactKey: Guid(2fd636507ffda9640b80ed992d54dc89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_273 1.asset using Guid(2fd636507ffda9640b80ed992d54dc89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30d2a30364e9b2d7b7354c1c08caf2d7') in 0.039089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_264 1.asset
+  artifactKey: Guid(bce07fa87f701a7499ab030054144193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_264 1.asset using Guid(bce07fa87f701a7499ab030054144193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7f4167e1f96a0d825a5be2f28274281') in 0.034888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_234.asset
+  artifactKey: Guid(722f4116643e7794d9cf48a370ef1543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_234.asset using Guid(722f4116643e7794d9cf48a370ef1543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53afc92f6a0061566dc1abaa52569b14') in 0.037778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_253.asset
+  artifactKey: Guid(5482ae3a3b0aa1048bc434c493f49cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_253.asset using Guid(5482ae3a3b0aa1048bc434c493f49cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96064c8acfe6317fe51897dc47dd3c1f') in 0.036105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_225 1.asset
+  artifactKey: Guid(513d5e35e675e9744afc64444dae9b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_225 1.asset using Guid(513d5e35e675e9744afc64444dae9b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fee100488c834902301317a0a2848439') in 0.033327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_210.asset
+  artifactKey: Guid(f3068985b128b1743982a57ab12b3437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_210.asset using Guid(f3068985b128b1743982a57ab12b3437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45a12e34fc5d71b1f085ca8ffb072e96') in 0.038447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_172.asset
+  artifactKey: Guid(7ad78903c81aca94291a8c8a17aec914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_172.asset using Guid(7ad78903c81aca94291a8c8a17aec914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e622cd57f46026d8df4b2637dd105e8') in 0.039556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_184 1.asset
+  artifactKey: Guid(7d921384fe983ad47913df93a35511ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_184 1.asset using Guid(7d921384fe983ad47913df93a35511ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '433a4142c52438410dde5b2240c250d9') in 0.044405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001317 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_177.asset
+  artifactKey: Guid(5efb7eb503bee674195a8dad03aa61d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_177.asset using Guid(5efb7eb503bee674195a8dad03aa61d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abdd7ae42d1e6c0d6fb156bd291e76c1') in 0.041043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_225.asset
+  artifactKey: Guid(7d4999cc1359ee34197cd8ce91bdec1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_225.asset using Guid(7d4999cc1359ee34197cd8ce91bdec1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c610ca915401f43de31cb619f68a0dc') in 0.040202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_192 1.asset
+  artifactKey: Guid(66d37b2b607be5d43a822bd5640f2c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_192 1.asset using Guid(66d37b2b607be5d43a822bd5640f2c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d8623c8583fbde4d36b977c44ca0cb9') in 0.040431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_200.asset
+  artifactKey: Guid(dd040166b7d984e4aa1854c706fc95f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_200.asset using Guid(dd040166b7d984e4aa1854c706fc95f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff4e317d59711d8b7a4db8d8d5410e59') in 0.037756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_226.asset
+  artifactKey: Guid(1f85f893d043c6b41b4f8ac461bc9a7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_226.asset using Guid(1f85f893d043c6b41b4f8ac461bc9a7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6257ca7599c49db10d36b121340f78f6') in 0.039982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_270 1.asset
+  artifactKey: Guid(436d789582ca8dc468c29c7a778eb1f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_270 1.asset using Guid(436d789582ca8dc468c29c7a778eb1f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03f81342034a2899cee1cd4ca4f2f0b0') in 0.041019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_195.asset
+  artifactKey: Guid(59956e5b6c6a06f48b711beb31ba6715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_195.asset using Guid(59956e5b6c6a06f48b711beb31ba6715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef6fa0d663d89ff322faa48c8e0069c9') in 0.037276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002289 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_2.asset
+  artifactKey: Guid(59d0613380fc1624684bbc358bb1a207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_2.asset using Guid(59d0613380fc1624684bbc358bb1a207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd78e5180233a7f64c6f9a8a5448c4fa') in 0.042685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_283.asset
+  artifactKey: Guid(966f7616311b3e04fa59f64dc508ab35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_283.asset using Guid(966f7616311b3e04fa59f64dc508ab35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acd38b4de3ee7183dc7c8a3498d25a8a') in 0.037805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_302.asset
+  artifactKey: Guid(04dfa98763df0c4439fe857683c185ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_302.asset using Guid(04dfa98763df0c4439fe857683c185ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec2b980386894300f8f2b1a668c945ef') in 0.033228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_304 1.asset
+  artifactKey: Guid(f99d9d4dff516c34e872e7221d9ab817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_304 1.asset using Guid(f99d9d4dff516c34e872e7221d9ab817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '436720b1a13ab8b0d1d81f456a713554') in 0.035149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_282 1.asset
+  artifactKey: Guid(3cee19fd054b4984cbccf7e14bfa2bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_282 1.asset using Guid(3cee19fd054b4984cbccf7e14bfa2bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a847731a1147c3126fe549b4a47d063d') in 0.032876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_323.asset
+  artifactKey: Guid(ab0c1837dc052514ea28172713d0812b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_323.asset using Guid(ab0c1837dc052514ea28172713d0812b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f5b03a4397099199edea4999d22b2bf') in 0.034195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_32 1.asset
+  artifactKey: Guid(b8477bf324abc99449cf65bcd2d00a71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_32 1.asset using Guid(b8477bf324abc99449cf65bcd2d00a71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0376aad871f09f0f3ee05a95ada7842d') in 0.031412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_309 1.asset
+  artifactKey: Guid(ae4946eef4f8ece4aab496dc53e65601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_309 1.asset using Guid(ae4946eef4f8ece4aab496dc53e65601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef1f33856fdb4fd5ed2273c23c11ab24') in 0.034448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_288 1.asset
+  artifactKey: Guid(8fbf38f3f90ca654398658d37730a48b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_288 1.asset using Guid(8fbf38f3f90ca654398658d37730a48b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5557caa89a088e7a22d35c69e9bb707c') in 0.041210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_315 1.asset
+  artifactKey: Guid(226a7e9efee81064db3e6dadb3164d20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_315 1.asset using Guid(226a7e9efee81064db3e6dadb3164d20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06c533265f059de836ce242e02d46eb9') in 0.035882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_302 1.asset
+  artifactKey: Guid(688e97215030b174381bf70f051c95c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_302 1.asset using Guid(688e97215030b174381bf70f051c95c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdad832e74144ddb5b4382bdc5a6cc4f') in 0.046390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_311 1.asset
+  artifactKey: Guid(f2d2b0eeeeaa13e4e8b7deae78341ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_311 1.asset using Guid(f2d2b0eeeeaa13e4e8b7deae78341ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e60eea5f202b9eda9c15e358afe74c3') in 0.033611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_31 1.asset
+  artifactKey: Guid(c0499ad9d37c61648af7b1d66dbc7f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_31 1.asset using Guid(c0499ad9d37c61648af7b1d66dbc7f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c87bcd1afc18877485ef7878b23ed8e2') in 0.034650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_292 1.asset
+  artifactKey: Guid(9405b65021db3bf4c85793855ff5764a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_292 1.asset using Guid(9405b65021db3bf4c85793855ff5764a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '915b0b513c49d61faae668c8d87d4295') in 0.035259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_293 1.asset
+  artifactKey: Guid(640ed119e54569b48ad0de068b6bd9ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_293 1.asset using Guid(640ed119e54569b48ad0de068b6bd9ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42d2d613b0acaa5194da1c9d54b838e9') in 0.039134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_28.asset
+  artifactKey: Guid(147b1d59acd265946be21958471675f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_28.asset using Guid(147b1d59acd265946be21958471675f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3279b6f7d98898d3a2c145b6123d1396') in 0.038539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_312 1.asset
+  artifactKey: Guid(f17191ad57100274f990223acc73ece4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_312 1.asset using Guid(f17191ad57100274f990223acc73ece4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6dc014cadbcca2110cee2f41ef6ad457') in 0.039899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_314 1.asset
+  artifactKey: Guid(0a857c618d6f50c43847d42ea1f6c7f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_314 1.asset using Guid(0a857c618d6f50c43847d42ea1f6c7f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b49d3bde27a22993c28837c7f4cebe75') in 0.039607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_363.asset
+  artifactKey: Guid(721cebf773de38949ad5982a030324c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_363.asset using Guid(721cebf773de38949ad5982a030324c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c860964bb1fe4714b725e3e9a7a5713') in 0.036968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_36 1.asset
+  artifactKey: Guid(19e68402780469d4a8311ab9c5e995ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_36 1.asset using Guid(19e68402780469d4a8311ab9c5e995ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a092134a9ab0379d5b1be623eb57569') in 0.039419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_354.asset
+  artifactKey: Guid(052e133b3ae13cd4fa3850a469294e7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_354.asset using Guid(052e133b3ae13cd4fa3850a469294e7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80edcece45cf94ace82c33b02e95fd2c') in 0.034131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_342 1.asset
+  artifactKey: Guid(71752d80243a68048840ef45fee4f12c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_342 1.asset using Guid(71752d80243a68048840ef45fee4f12c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19232e7ab62ec255066a63f3025ae482') in 0.036583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_336.asset
+  artifactKey: Guid(28e2982dbd28b7b45b481ac010816f89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_336.asset using Guid(28e2982dbd28b7b45b481ac010816f89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a3c94e12be5f9ae504f1a40c6fefaed') in 0.035854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_353.asset
+  artifactKey: Guid(1b6f8008122c48e4a9096f15f3fc91b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_353.asset using Guid(1b6f8008122c48e4a9096f15f3fc91b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b80342766e50bbb90c0348cacc0d5c39') in 0.034271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_352.asset
+  artifactKey: Guid(0228ba88e5b531940910550ef230b7f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_352.asset using Guid(0228ba88e5b531940910550ef230b7f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a5e28baa257b949c2029bf984ae4063') in 0.034574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_359.asset
+  artifactKey: Guid(15ac992a155718f4583d504b176f71b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_359.asset using Guid(15ac992a155718f4583d504b176f71b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b74d2e1bc511c3f2a2a0eb9b43bbdc16') in 0.035316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_360 1.asset
+  artifactKey: Guid(936937ef7a3bd4346ba2d2166ef5f55a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_360 1.asset using Guid(936937ef7a3bd4346ba2d2166ef5f55a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe44a05a05709bfedcc39fc065d20d4a') in 0.035680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_327 1.asset
+  artifactKey: Guid(eb4d1dc62e445094cae0db573f962231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_327 1.asset using Guid(eb4d1dc62e445094cae0db573f962231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'decf630a2de13083648f208b8e70ced2') in 0.029827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_350 1.asset
+  artifactKey: Guid(4d146f30f71a7ce4193fcebdc591d138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_350 1.asset using Guid(4d146f30f71a7ce4193fcebdc591d138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba32527df7a92ef17b81a624df0fa8d9') in 0.039291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_300.asset
+  artifactKey: Guid(a6450f76290cca940964248d877d9472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_300.asset using Guid(a6450f76290cca940964248d877d9472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d5b5eb163dd9a3bbca7dedbf0e1d8ef') in 0.031149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_291 1.asset
+  artifactKey: Guid(2c4190b9766acc8448bd5af17c4b55f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_291 1.asset using Guid(2c4190b9766acc8448bd5af17c4b55f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd0b25418e36823c5960d649c3dfc735') in 0.035631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_34.asset
+  artifactKey: Guid(43f132d38b5da504cb6413cb449ddbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_34.asset using Guid(43f132d38b5da504cb6413cb449ddbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '190bdd4af6c46b97ddf8152468897864') in 0.041152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_276.asset
+  artifactKey: Guid(db51d45d28a8b884fa48fdf20696596e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_276.asset using Guid(db51d45d28a8b884fa48fdf20696596e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd90bcaa2c12c1b508229014d85a435aa') in 0.035965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_39 1.asset
+  artifactKey: Guid(8a7af9360b668fb43b7e9c66011f3895) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_39 1.asset using Guid(8a7af9360b668fb43b7e9c66011f3895) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acb4922645b7099cf192fcdb5b3de4da') in 0.035296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_384 1.asset
+  artifactKey: Guid(8d659ffbb27aeb3408c8bc0be93ed7a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_384 1.asset using Guid(8d659ffbb27aeb3408c8bc0be93ed7a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c672b042aa1d91e54b5145d5b24d03c') in 0.041550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_380.asset
+  artifactKey: Guid(1d2cecc109d67214c9053e916c385fff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_380.asset using Guid(1d2cecc109d67214c9053e916c385fff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53cb4776346cc5efda84578b041ba704') in 0.042798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_393 1.asset
+  artifactKey: Guid(41458a07c61d2264e86348c543e66821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_393 1.asset using Guid(41458a07c61d2264e86348c543e66821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15f5d6e8e4c30eab08baf8898b9016af') in 0.036576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_392.asset
+  artifactKey: Guid(72fb733f9a7456c46b4811c160f161f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_392.asset using Guid(72fb733f9a7456c46b4811c160f161f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f912a1a4787bfa5bf03b835b6368aaa') in 0.035781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_370 1.asset
+  artifactKey: Guid(266a92c9874e7b546968e2274966f76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_370 1.asset using Guid(266a92c9874e7b546968e2274966f76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '772a3f355194094cb166ec6342680cbc') in 0.037265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_388 1.asset
+  artifactKey: Guid(17614c400f84e2448a6188aec4320ab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_388 1.asset using Guid(17614c400f84e2448a6188aec4320ab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17f6381f3af100ff39771060e941e60b') in 0.034163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_375 1.asset
+  artifactKey: Guid(82eb1c9b2b283ac49a3188b0c27885f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_375 1.asset using Guid(82eb1c9b2b283ac49a3188b0c27885f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '872faa194c1dc3cd706c49ae1fa14f1b') in 0.032420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_395 1.asset
+  artifactKey: Guid(565eeefff9c99644d81d7436863779d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_395 1.asset using Guid(565eeefff9c99644d81d7436863779d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28feea0346e5253804f00994b6d9c8d0') in 0.039570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_373.asset
+  artifactKey: Guid(226d1732dac76fd42802d9ed46159e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_373.asset using Guid(226d1732dac76fd42802d9ed46159e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fb2985055280d23fc572daa7c38c71b') in 0.038125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_366 1.asset
+  artifactKey: Guid(746d14b5b66b51d4191d6fa3e2ab08cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_366 1.asset using Guid(746d14b5b66b51d4191d6fa3e2ab08cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ded7531bcbb03b96719c62965efca24b') in 0.042138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_391 1.asset
+  artifactKey: Guid(a17d9d043042b4648a5f4c25aa0f6965) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_391 1.asset using Guid(a17d9d043042b4648a5f4c25aa0f6965) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3116a61dca9cd673a04da7b9748fbfe') in 0.034417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_37 1.asset
+  artifactKey: Guid(086330495ab19354986db16b6e1f4083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_37 1.asset using Guid(086330495ab19354986db16b6e1f4083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07d538762a82fa660cf97eb5f5ea0cc2') in 0.037677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000909 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_367.asset
+  artifactKey: Guid(ef496ebb01c87a84588c73f1ddf93e21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_367.asset using Guid(ef496ebb01c87a84588c73f1ddf93e21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ae7dd99f458dea07a95b986274fea24') in 0.040050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_401 1.asset
+  artifactKey: Guid(1a386ded9faaa154c83ea887a5f2a15a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_401 1.asset using Guid(1a386ded9faaa154c83ea887a5f2a15a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b949e06c8f55cfa11dedd4c1f56a1d0') in 0.038578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_420 1.asset
+  artifactKey: Guid(3d46093fbda56e0409ca156bbfd33296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_420 1.asset using Guid(3d46093fbda56e0409ca156bbfd33296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fc08677f40b5d35b31d4eeaf9602a29') in 0.034502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_407.asset
+  artifactKey: Guid(ff39b7999aa33174ebf8aaf0a94ccf80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_407.asset using Guid(ff39b7999aa33174ebf8aaf0a94ccf80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b36fae8a2eda29977c7649390d36237d') in 0.033888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_422.asset
+  artifactKey: Guid(fef35ddf30d99704b98ad57fbf4663ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_422.asset using Guid(fef35ddf30d99704b98ad57fbf4663ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06ea8af32e28616b37831a4f78e693e9') in 0.037169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_428.asset
+  artifactKey: Guid(f79fb6c78d3dcdf48bc74a0113760711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_428.asset using Guid(f79fb6c78d3dcdf48bc74a0113760711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '171f139f2e5f4d91a34b1f4c17f971a2') in 0.036892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_417.asset
+  artifactKey: Guid(af17162ca6abad141bb20f1caff788e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_417.asset using Guid(af17162ca6abad141bb20f1caff788e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51529c37db51f29ced0dd50e092505fb') in 0.036261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_414.asset
+  artifactKey: Guid(ba0ae8df37f737b4cb3a11d6a26e7957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_414.asset using Guid(ba0ae8df37f737b4cb3a11d6a26e7957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d05383562b5b4f0d36bd896647f13ab') in 0.037882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_409 1.asset
+  artifactKey: Guid(b3a4ff4128e6e79418df1dc3621df0d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_409 1.asset using Guid(b3a4ff4128e6e79418df1dc3621df0d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6897c88634d9543f2716f78df79c1b44') in 0.036666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_404.asset
+  artifactKey: Guid(13c0b2d3237e5ea4d95b719a0c8e0537) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_404.asset using Guid(13c0b2d3237e5ea4d95b719a0c8e0537) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29098a468891e7ebf4838ae84027a7fe') in 0.038557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004071 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_429 1.asset
+  artifactKey: Guid(06037d10b9aca954aa7765cabfc369b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_429 1.asset using Guid(06037d10b9aca954aa7765cabfc369b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c66c26f466e7a66ec4636271a952af61') in 0.040089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_424 1.asset
+  artifactKey: Guid(0dc1b44ab8cca6746a5daf698341b977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_424 1.asset using Guid(0dc1b44ab8cca6746a5daf698341b977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9dd29b4e42e56be7c4ae07a52ffba53c') in 0.042443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_428 1.asset
+  artifactKey: Guid(2db97c01067524542a12b91ebff77a12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_428 1.asset using Guid(2db97c01067524542a12b91ebff77a12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1df9293c32591ae6cec93f0c01ee125') in 0.039113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_406.asset
+  artifactKey: Guid(674aa349853699147a5e0df665ae0afe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_406.asset using Guid(674aa349853699147a5e0df665ae0afe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04c346dff1fa55a65fbd7cc65197cd4c') in 0.034075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_41.asset
+  artifactKey: Guid(d74f447a665a14943b065738957bfec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_41.asset using Guid(d74f447a665a14943b065738957bfec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17b0b8c25b156ebf237247606672c523') in 0.036682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_380 1.asset
+  artifactKey: Guid(0858ad236b3895b45a1c2fbc2bfc5174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_380 1.asset using Guid(0858ad236b3895b45a1c2fbc2bfc5174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45af403b15e2aaae42fee32f6a1ac754') in 0.039140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_434.asset
+  artifactKey: Guid(938192d783425584f88f849d324c4527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_434.asset using Guid(938192d783425584f88f849d324c4527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26f8124af384bf4c54c3685334f11704') in 0.036236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_46 1.asset
+  artifactKey: Guid(7271e16056a3a124d9666903d32daa94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_46 1.asset using Guid(7271e16056a3a124d9666903d32daa94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '508e5e601fca122d33ee2742e841ddd8') in 0.038555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_457.asset
+  artifactKey: Guid(e1d2fdafbb2bb664197d63edfc3e3a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_457.asset using Guid(e1d2fdafbb2bb664197d63edfc3e3a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '598149625597f79348ff4848c1e886d1') in 0.046629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_458.asset
+  artifactKey: Guid(e26e792077696994d8a453252db1f30b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_458.asset using Guid(e26e792077696994d8a453252db1f30b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c8cac6c1fb3f9c9ddbed5ef12b1641b') in 0.044924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002281 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_450.asset
+  artifactKey: Guid(3b890aabaa81e7348b735b9b2f42b908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_450.asset using Guid(3b890aabaa81e7348b735b9b2f42b908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89f6a786d6ceb7e6ac1f9e337f2a58b4') in 0.048696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000865 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_446 1.asset
+  artifactKey: Guid(53eacff509eebb34e85d21d03c96078d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_446 1.asset using Guid(53eacff509eebb34e85d21d03c96078d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fb4b7c46b84f353b0c705e95e215f43') in 0.071064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_434 1.asset
+  artifactKey: Guid(a077bd2fc2aff0543b08531d75fe7fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_434 1.asset using Guid(a077bd2fc2aff0543b08531d75fe7fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb73df0903165a57749017bd15d49e2b') in 0.043252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_445.asset
+  artifactKey: Guid(46cf394818150ab40b1a803ac797a326) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_445.asset using Guid(46cf394818150ab40b1a803ac797a326) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67ffbcdc7b00b73c227553efafeb274a') in 0.046101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_431 1.asset
+  artifactKey: Guid(ab06b68259d72234ba09c5555d4f8d7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_431 1.asset using Guid(ab06b68259d72234ba09c5555d4f8d7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '312ac702f8e6680d5bcce91926f20da6') in 0.042521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_45 1.asset
+  artifactKey: Guid(2786f27dfdb8ef4468e1dac8458433fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_45 1.asset using Guid(2786f27dfdb8ef4468e1dac8458433fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8561a8f8977d6372728ab35931ae1447') in 0.044557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_462 1.asset
+  artifactKey: Guid(2b5508de2e4bf754ca236419f7a82508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_462 1.asset using Guid(2b5508de2e4bf754ca236419f7a82508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd14ff2f3438728c98b1a325457787f5a') in 0.037320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_445 1.asset
+  artifactKey: Guid(43ae4769c1774404db0b0471d3e441e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_445 1.asset using Guid(43ae4769c1774404db0b0471d3e441e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3f99cc80495a218db6e098570817e1c') in 0.041227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_5 1.asset
+  artifactKey: Guid(e7829096c68685840acd3eb09551c309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_5 1.asset using Guid(e7829096c68685840acd3eb09551c309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5654be27e525b2c363665b4ad6de6980') in 0.046854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_463.asset
+  artifactKey: Guid(a0fd9332b919daf44bcedb730a2fd737) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_463.asset using Guid(a0fd9332b919daf44bcedb730a2fd737) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7621e1e609e5316d9ae080da73b5094') in 0.039837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_63 1.asset
+  artifactKey: Guid(6a7905c8d2ee25246b64d11f46b2d548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_63 1.asset using Guid(6a7905c8d2ee25246b64d11f46b2d548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1eb7d6d3d1373ddd4f02eb434f1ff787') in 0.033277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_70.asset
+  artifactKey: Guid(1e2308fb2fdbba44b9ad325b70fecb18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_70.asset using Guid(1e2308fb2fdbba44b9ad325b70fecb18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f081dd472945723fe9efcced11e2809') in 0.031569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_61.asset
+  artifactKey: Guid(48025fe88d4086a489b164c4ed467391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_61.asset using Guid(48025fe88d4086a489b164c4ed467391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a7820b7b087a01c4cf5202191a688c5') in 0.036524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_58 1.asset
+  artifactKey: Guid(f4b87f24eda37274987bdefd1234a901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_58 1.asset using Guid(f4b87f24eda37274987bdefd1234a901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55bb0be08c52c252cd51eece06b9cf8a') in 0.034995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_57.asset
+  artifactKey: Guid(69d490fb6a852a047b3634c9202650c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_57.asset using Guid(69d490fb6a852a047b3634c9202650c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd611e871acd72705a3938529a5615b15') in 0.047283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_56 1.asset
+  artifactKey: Guid(53e13f3e522f538408236521a4d3bb6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_56 1.asset using Guid(53e13f3e522f538408236521a4d3bb6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0afd2fb9db9f029e135d11ce3b64863') in 0.049986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_62 1.asset
+  artifactKey: Guid(48d1dbe1bccf39a439b45e3d6228074b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_62 1.asset using Guid(48d1dbe1bccf39a439b45e3d6228074b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f1dab7fb8f14fa6d57a30d9ea833b7c') in 0.042780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_443.asset
+  artifactKey: Guid(7804cbffa22cf5c42ae176e659b6351d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_443.asset using Guid(7804cbffa22cf5c42ae176e659b6351d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd8b5d20e5805c3e3ac0f41f85d358f1') in 0.050500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_437.asset
+  artifactKey: Guid(aae59d397a7e2974c92ccaffaafcc486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_437.asset using Guid(aae59d397a7e2974c92ccaffaafcc486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbf74c5a96cfb7cc8aa6c41a08b19600') in 0.038595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_450 1.asset
+  artifactKey: Guid(568554e9cfbc6844c8e170c4f7fcdd91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_450 1.asset using Guid(568554e9cfbc6844c8e170c4f7fcdd91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3aab0307bd4650a0908cae569a17c8bc') in 0.031413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_49 1.asset
+  artifactKey: Guid(c55a0f0436d4e7f45814f78c80387f7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_49 1.asset using Guid(c55a0f0436d4e7f45814f78c80387f7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f49a2b13d1030693c1e66b95bc0d3f9') in 0.034898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_54 1.asset
+  artifactKey: Guid(b7580f709cbf27549b8a0ff7172d4afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_54 1.asset using Guid(b7580f709cbf27549b8a0ff7172d4afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79222bb661ae49d2e08b90308042c543') in 0.035670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_334.asset
+  artifactKey: Guid(d042994153824244e9d51a6e2b37c679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_334.asset using Guid(d042994153824244e9d51a6e2b37c679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b223b3d05b318457e76a4ef18fb89178') in 0.031843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_416.asset
+  artifactKey: Guid(5cc121766e4150a4382107c0a6e1235e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_416.asset using Guid(5cc121766e4150a4382107c0a6e1235e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f8bff5552ae4ee8d1ffdaad9d207e68') in 0.035703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_271.asset
+  artifactKey: Guid(7e5cb69ca8cbce242a87f3fd95d87cde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_271.asset using Guid(7e5cb69ca8cbce242a87f3fd95d87cde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba7442380e384ccc53d59b5ab9f0f6a9') in 0.027601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_242 1.asset
+  artifactKey: Guid(12fa565f9c5fc9b4bb3e71a4b93cd005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_242 1.asset using Guid(12fa565f9c5fc9b4bb3e71a4b93cd005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ff8a28e0681e4c3226dc42c787455fe') in 0.029052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_348 1.asset
+  artifactKey: Guid(5e589c41c8a2de14eb3481a25efc996f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_348 1.asset using Guid(5e589c41c8a2de14eb3481a25efc996f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66dd7dd9bc96169c7dfeb6bd9eeb66e5') in 0.027977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_339 1.asset
+  artifactKey: Guid(2b61c988a43f1a642a8d34e06b30e6af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_339 1.asset using Guid(2b61c988a43f1a642a8d34e06b30e6af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '195a6a66cc29b8882fa1b8be4824ff6a') in 0.029879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_314.asset
+  artifactKey: Guid(a5f581825634e684c950a3df111c9910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_314.asset using Guid(a5f581825634e684c950a3df111c9910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e0ba003a7b78d80ee6f09c037394d34') in 0.030169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_174.asset
+  artifactKey: Guid(6aab3da5e0f12644b9f7174a56557d7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_174.asset using Guid(6aab3da5e0f12644b9f7174a56557d7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a50accaebf77fb938bb901d72001fcb8') in 0.031751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_172 1.asset
+  artifactKey: Guid(b44e1a325b8c0444587b631b98d3dd44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_172 1.asset using Guid(b44e1a325b8c0444587b631b98d3dd44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1720730c406df934c8bbfe39404d57ad') in 0.024873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_217.asset
+  artifactKey: Guid(48a19dc04e0bb664f95f10cd2bde6566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_217.asset using Guid(48a19dc04e0bb664f95f10cd2bde6566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9450e389964a82a92eda2db3e440208') in 0.041590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_307.asset
+  artifactKey: Guid(9d1b0d01821291740965071284cfac12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_307.asset using Guid(9d1b0d01821291740965071284cfac12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6556407ffa5f424e27350cd5e2b7b484') in 0.025353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_269 1.asset
+  artifactKey: Guid(e2a54958920a6164882020ac1ea4fadb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_269 1.asset using Guid(e2a54958920a6164882020ac1ea4fadb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de4c93d6364d3301527b83d8354ba74b') in 0.025092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_284 1.asset
+  artifactKey: Guid(28ca8208f52399e4a96e0b7240a3254d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_284 1.asset using Guid(28ca8208f52399e4a96e0b7240a3254d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b59947ac4c22ea4c5a4717a659cfa27') in 0.030076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/tile map/palace/tiles/froset 1/Tiles_255.asset
+  artifactKey: Guid(2572f6f43802aa441b5ca65bf346f98d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/tile map/palace/tiles/froset 1/Tiles_255.asset using Guid(2572f6f43802aa441b5ca65bf346f98d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd714631fa94c0816f839fd712ca27217') in 0.028089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (74.2 KB). Loaded Objects now: 5070.
+Memory consumption went from 70.3 MB to 70.3 MB.
+Total: 7.917000 ms (FindLiveObjects: 0.421100 ms CreateObjectMapping: 0.316600 ms MarkObjects: 7.108300 ms  DeleteObjects: 0.069100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (76.4 KB). Loaded Objects now: 5070.
+Memory consumption went from 70.6 MB to 70.5 MB.
+Total: 6.726800 ms (FindLiveObjects: 0.382700 ms CreateObjectMapping: 0.247300 ms MarkObjects: 6.040900 ms  DeleteObjects: 0.054700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 因為執行緒結束或應用程式要求，所以已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
