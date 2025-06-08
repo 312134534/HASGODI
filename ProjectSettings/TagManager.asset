@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - player1
+  - player2
+  - hansbullet
+  - suifuFireBall
+  - animal
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - ground
+  - player1
+  - player2
+  - enemy
+  - camera
+  - shader
+  - bullet
+  - player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: back3
+    uniqueID: 1986137615
+    locked: 0
+  - name: back 2
+    uniqueID: 1300694349
+    locked: 0
+  - name: back 1
+    uniqueID: 3106638673
+    locked: 0
+  - name: middle
+    uniqueID: 1173203875
+    locked: 0
+  - name: front
+    uniqueID: 2614121633
+    locked: 0
