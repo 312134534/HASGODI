@@ -2,3 +2,4 @@
 *.csproj
 /UserSettings
 *.sln
+.vsconfig

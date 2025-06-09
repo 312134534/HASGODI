@@ -1,34 +1,37 @@
 # HASGODI
 
-🎮 Unity 遊戲專案 - HASGODI
-
-## 遊戲截圖
-> （你可以貼上圖片，或者放一張圖片連結）
-![遊戲畫面](https://your.image.link/here.png)
+Unity 遊戲專案 - HASGODI
 
 ## 遊戲介紹
 
-HASGODI 是一款由 Unity 開發的 2D / 3D 遊戲，目標是 _______。  
-玩家可以 _______、________，並在遊戲中體驗 ________ 的樂趣。
+HASGODI 是一款由 Unity 開發的 2D 雙人格鬥遊戲，可以雙人對戰或挑戰電腦。
 
 ## 遊玩方式
 
-- W / A / S / D：移動角色  
-- 滑鼠：瞄準 / 攻擊  
-- Space：跳躍  
-- Esc：開啟暫停選單
+### Player1
+- A / D：左右移動  
+- J：近攻擊  
+- U：遠攻擊擊
+- K：跳躍  
+- L：閃避
+### Player2
+- <- / ->：左右移動  
+- 1：近攻擊  
+- 4：遠攻擊擊
+- 2：跳躍  
+- 3：閃避
 
->（請根據你的遊戲實際控制方式填寫）
-
+### UI
+- Esc：暫停選單
 ---
 
+## EXE下載連結
 ## 開發環境
 
-- Unity 版本：2022.2.x
-- 編輯器：Visual Studio / VS Code（請依照實際情況填）
-- 開發平台：Windows / Mac
+- Unity 版本：2022.2.21f1
+- 編輯器：Visual Studio
+- 開發平台：Windows
 
 ---
 
-## 專案結構
 
