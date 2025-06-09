@@ -26,6 +26,7 @@ HASGODI 是一款由 Unity 開發的 2D 雙人格鬥遊戲，可以雙人對戰�
 ---
 
 ## EXE下載連結
+https://drive.google.com/drive/u/0/recent
 ## 開發環境
 
 - Unity 版本：2022.2.21f1
